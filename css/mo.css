@@ -1,0 +1,306 @@
+@media all and (max-width:949px){
+
+    .header{
+        position: fixed;
+        z-index: 9999;
+        /* background-color: rgba(0, 0, 0, 0.3); */
+       
+    }
+    .logo{
+        width: 300px;
+        height: 100px;
+        margin-left: 30px;
+        float: left;
+    }
+    .top_menu_wrap{
+        display: none;
+    }
+    .mo_tap_menu{
+        width: 50px;
+        height: 50px;
+        float: right;
+        margin-right: 30px;
+        margin-top: 25px;
+    }
+    .tap_wrap{
+        display: none;
+    }
+    /* 1페이지  */
+    .page_1{
+        box-sizing: border-box;
+        padding-top: 100px;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .mask_wrap{
+        width: 1900px;
+        height: 600px;
+        border-top: 30px red solid;
+        border-bottom: 30px red solid;
+        box-sizing: border-box;
+        position: relative;
+       
+    }
+    .mask_wrap .img_box_3{
+        border-top: 30px yellow solid;
+        border-bottom: 30px yellow solid;
+        box-sizing: border-box;
+    
+    }
+    
+    .move_box{
+        width: 8000px;
+        height: 600px;
+        position: absolute;
+        top: 0;
+        left: 0;
+       
+    }
+    .img_box{
+        width: 1900px;
+        height: 540px;
+        float: left;
+    }
+    .bot_header{
+        width: 100%;
+        height: 200px;
+        position: relative;
+    }
+    .product_menu_wrap{
+        background-color: white;
+        width: 80%;
+        height: 100px;
+        border-radius: 25px;
+        display: flex;
+        position: absolute;
+        top:30px;
+        left: 10%;
+    }
+    .product_button{
+        width: 25%;
+        height: 100%;
+        padding: 10px 70px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .but_img{
+        width: 50px;
+        height: 80px;
+        /* line-height: 90px; */
+        /* padding-bottom: 10px;
+        box-sizing: border-box; */
+    }
+    .but_img>img{
+        width: 100%;
+        height: 100%;
+        object-fit:contain;
+    }
+    .p_name{
+        display: none;
+    }
+    .goldbear{
+        position: absolute;
+        right: 3%;
+        bottom: 30%;
+        width: 155px;
+        height: 250px;
+    }
+    
+    
+    /* 팝업창 */
+    .pop_up{
+        width: 500px;
+        height: 320px;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        display: none;
+    }
+    .pop_up_1{
+        display: block;
+    }
+    /* 2페이지 */
+    .page_2{
+        /* width: 100%;
+        height: 52vw; */
+        /* background-color: rgb(150, 126, 126); */
+        /* position: relative; */
+    }
+    .dis_non{
+        display: none;
+    }
+ 
+    .i_con_2{
+        width: 100%;
+        height: 10%;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+        /* position: absolute;
+        top: 10%;
+        left: 18%; */
+        /* border: solid 1px red; */
+    }
+    .fruit{
+        width: 10%;
+        height: 100%;
+
+    }
+    .mo_bear{
+        width: 45%;
+        height: 70%;
+        margin: 0 auto;
+    }
+    .mo_bear img{
+        object-fit:contain;
+    }
+    
+    
+    /* 3페이지 */
+    .page_3{
+        /* width: 100%;
+        height: 52vw; */
+        position: relative;
+        margin-bottom: 80px;
+    }
+    .promotion_box{
+        width: 100%;
+        height: 100%;
+        background-color: antiquewhite;
+        margin: 0 auto;
+    }
+    .button_3{
+        width: 200px;
+        height: 60px;
+        line-height: 60px;
+        position: absolute;
+        top:5%;
+        left:7%;
+        /* margin-left: 300px; */
+        font-size: 20px;
+        font-weight: 800;
+        border: 5px solid rgb(26, 22, 238);
+        border-radius: 50px;
+        text-align: center;
+    }
+    
+    
+    
+    
+    /* 4페이지 */
+    /* .page_4{
+        width: 100%;
+        height: 52vw;
+        
+    } */
+    .float{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .box{
+        background-color: white;
+        width: 400px;
+        height: 500px;
+        padding: 20px;
+        box-sizing: border-box;
+        border-radius: 30px;
+        box-shadow: 0px 3px 29px 0 rgba(0, 0, 0, 0.3);
+        transition: 0.5s;
+        margin-bottom: 10px;
+    }
+    .box_3,.box_4{
+        display: none;
+    }
+    .con{
+        width: 355px;
+        height: 400px;
+    }
+    .con_text{
+    width:300px;
+    height: 100px;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        line-height: 80px;
+        padding-left: 30px;
+    
+    }
+    /* 젤리 슬라이드 */
+    .page_5{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        align-items: center;
+    }
+    .ani_wrap{
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+        position: relative;
+        margin-left: 50px;
+    }
+    .ani_move_box{
+        width: 2080px;
+        height: 300px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .ani_img_box{
+        width: 240px;
+        height: 100%;
+        float: left;
+        margin-right: 50px;
+    }
+    
+    
+    /* 푸터 */
+    .footer{
+        width: 100%;
+        height: 300px;
+        border-top: 1px solid #333;
+        padding: 50px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+    }
+    .fo_wrap{
+        width: 33%;
+        height: 100%;
+    }
+    .fo_wrap li{
+        font-size: 35px;
+        font-weight: 900;
+        line-height: 80px;
+    }
+    .fo_wrap_2>li{
+        font-size: 25px;
+        line-height: 80px;
+    }
+    
+    .sns_wrap{
+        width: 33%;
+        height: 100%;
+        position: relative;
+    }
+    .sns_wrap li{
+        font-size: 25px;
+        font-weight: 900;
+        line-height: 20px;
+        position: absolute;
+        bottom: 0;
+        left: 25%;
+    }
+    .sns_wrap img{
+        width: 50px;
+        height: 100px;
+    }
+    
+}
